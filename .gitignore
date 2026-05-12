@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+*.env
+.DS_Store
+
+# Data files — too large for git
+data/*.zip
+data/synthetic_recipe_images/
+data/review_image_placeholder.jpg
