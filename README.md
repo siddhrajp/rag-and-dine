@@ -40,9 +40,15 @@ rag-and-dine/
 | Lesson 2 | `process_multimodal_data.py` | Generates image captions for food recipe photos and user review images using LLaMA 4 vision model |
 | Lesson 3 | `restaurant_data_management.py` | CLI tool for browsing, adding, editing, and deleting restaurant records with backup safety and LLM-powered data entry |
 
-### Module 2 — Multimodal RAG System *(coming soon)*
+### Module 2 — Multimodal RAG System
 
-### Module 3 — Multi-Agent Recommendation System *(coming soon)*
+| Lesson | Script | Description |
+|--------|--------|-------------|
+| Lesson 1 | `construct_multimodal_vector_index.py` | Builds ChromaDB vector indexes using MiniLM text embeddings (384-d) and CLIP image embeddings (512-d) |
+| Lesson 2 | `similarity_retrieval.py` | Text and image-to-image similarity retrieval with metadata filtering over Chroma collections |
+| Lesson 3 | `multimodal_fusion_ranking.py` | Weighted late fusion ranking combining text and image retrieval scores with min-max normalization |
+
+### Module 3 — Multi-Agent Recommendation System *(in progress)*
 
 ### Module 4 — RAG Pipeline with LangChain *(coming soon)*
 
